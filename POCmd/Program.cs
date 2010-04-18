@@ -13,6 +13,8 @@ namespace Streamlet.POManager.POCmd
             POData poData = POReader.ParseFile(@"..\..\..\TestFiles\en.po");
             poData = POReader.ParseFile(@"..\..\..\TestFiles\zh.po");
             poData = POReader.ParseFile(@"..\..\..\TestFiles\zh-CN.po");
+
+            POWriter.WriteToFile(poData, "zh-CN.po");
         }
     }
 }
