@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POCmd", "POCmd\POCmd.csproj
 		{3C0D96DD-D2FA-4B5C-891E-148C1973B155} = {3C0D96DD-D2FA-4B5C-891E-148C1973B155}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POManager", "POManager\POManager.csproj", "{C4DFCB1D-50F0-430C-A448-71AF64714868}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,16 @@ Global
 		{8E33519A-98E6-43B4-A6A3-25F08DF851CA}.Release|Mixed Platforms.Build.0 = Release|x86
 		{8E33519A-98E6-43B4-A6A3-25F08DF851CA}.Release|x86.ActiveCfg = Release|x86
 		{8E33519A-98E6-43B4-A6A3-25F08DF851CA}.Release|x86.Build.0 = Release|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Debug|x86.ActiveCfg = Debug|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Debug|x86.Build.0 = Debug|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Release|Any CPU.ActiveCfg = Release|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Release|x86.ActiveCfg = Release|x86
+		{C4DFCB1D-50F0-430C-A448-71AF64714868}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
