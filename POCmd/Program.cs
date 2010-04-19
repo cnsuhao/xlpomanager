@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Streamlet.POManager.POUtility;
+using Streamlet.POManager.LanguageUtility;
 
 namespace Streamlet.POManager.POCmd
 {
@@ -10,7 +11,9 @@ namespace Streamlet.POManager.POCmd
     {
         static void Main(string[] args)
         {
-            POData poData = POReader.ParseFile(@"..\..\..\TestFiles\en.po");
+            var lang = LangUtility.EnumAllLanguages();
+
+            var poData = POReader.ParseFile(@"..\..\..\TestFiles\en.po");
             poData = POReader.ParseFile(@"..\..\..\TestFiles\zh.po");
             poData = POReader.ParseFile(@"..\..\..\TestFiles\zh-CN.po");
 

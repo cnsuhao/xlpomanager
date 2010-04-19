@@ -47,6 +47,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LangUtility\LangUtility.csproj">
+      <Project>{A18FEC10-07E2-4DBA-9BA8-632CA0995370}</Project>
+      <Name>LangUtility</Name>
+    </ProjectReference>
     <ProjectReference Include="..\POUtility\POUtility.csproj">
       <Project>{3C0D96DD-D2FA-4B5C-891E-148C1973B155}</Project>
       <Name>POUtility</Name>

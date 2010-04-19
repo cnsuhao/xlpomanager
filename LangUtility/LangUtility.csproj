@@ -8,7 +8,7 @@
     <ProjectGuid>{A18FEC10-07E2-4DBA-9BA8-632CA0995370}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Streamlet.POManager.LangUtility</RootNamespace>
+    <RootNamespace>Streamlet.POManager.LanguageUtility</RootNamespace>
     <AssemblyName>LangUtility</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
